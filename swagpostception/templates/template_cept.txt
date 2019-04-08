@@ -1,0 +1,27 @@
+<?php
+
+namespace %namespace%;
+
+/**
+ * Тестирование Merchandising API
+ */
+class %ceptname%Cest
+{
+
+    /**
+     * @inheritdoc
+     *
+     * @param ApiTester $I
+     */
+    public function _before(ApiTester $I)
+    {
+        if ($this->_initCompleted) {
+            return true;
+        }
+
+        $this->_initCompleted = true;
+    }
+
+    %methods%
+
+}
