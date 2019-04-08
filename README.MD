@@ -1,7 +1,7 @@
 WORK IN PROGRESS, NOT READY FOR USE AT THIS TIME
 
 #### SwagPostCeption
-####Codeception api test generation tool from postman, swagger.
+Codeception api test generation tool from postman, swagger.
 
 ##### Current features:
 Transform postman collection into api codeception tests
